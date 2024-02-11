@@ -1,0 +1,62 @@
+all the body(Meaning the entire html)
+the font family is = Aeonik, 
+ another font family = made mellow ,sans serif 
+
+ black color = #292a29;
+ brown color = #b4a572;
+ green color= #11453b;
+ red color = #ea4e4b;
+apple store picture link= https://www.myeazipay.com/img/apple-store.1c73f0ba.png;  
+play store picure link= https://www.myeazipay.com/img/google-store.af961bc5.png;
+
+
+Heading(Navigation bar)
+font size = 16px ;
+font family = aenionk regular 
+<path fill-rule="evenodd" clip-rule="evenodd" d="M21.1559 13.1687C15.0614 14.5337 6.62708 8.63356 0 10.6927V15.4595C6.62708 13.3998 15.0614 19.3 21.1559 17.958V13.1686V13.1687Z" fill="#11453B"></path>
+black color = #515251
+padding= 24px 0;
+for the login and sign in {
+width = 160px
+height = 40px
+border raduis = 99px;
+} 
+
+section(Run your payroll)
+heading font size = 64px;
+paragraaph font size = 20px;
+whatsapp image =https://www.myeazipay.com/img/hero-media-desktop.5f900d38.png;
+green color = rgb(17, 69, 59)
+brown color
+
+
+
+section(free forever for your salary)
+image red dot = data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAA…g9NsDod8eCP32QOi3B0L/J/0e9wN06zjaAAAAAElFTkSuQmCC;
+image man =https://www.myeazipay.com/img/free-forever.9a58e2e5.png
+
+section (individual and business)
+background image= https://www.myeazipay;.com/img/eazi-wave-green-desktop.591e7153.png;
+
+section ( how easy pay works)
+image gif= https://www.myeazipay.com/img/payroll.372ea3c0.gif;
+line = width of 1.2 and the green color 
+circle 1 = width 500px height 500px 
+circle 2 = width 85% hieght 90%  backgroundcolor #d9ebcd
+circle 3 = width 90% hieght 94%
+
+section (get exclusive demo)
+dot image = 	data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAawA…AAAAAAAAAAAAAAODd8j/GvYA5vEun+gAAAABJRU5ErkJggg==;
+form box shadow = 0 20px 48px hsla(0,0%,66.7%,.29);
+
+
+
+
+
+#hero {
+  float: right;
+  padding-top: 45px;
+  margin: 0;
+  z-index: -1;
+  height: 443px;
+}
