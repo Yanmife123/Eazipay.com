@@ -209,14 +209,22 @@ li {
   font-family: aneionkregular;
   color: var(--color-grey);
 }
+.cardp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 #cards {
-  padding: 20px 0 0 250px;
+  display: flex;
+  width: 800px;
+  height: 250px;
 }
 .card {
   font-family: aneionkregular, sans-serif;
   color: var(--color-white);
   background-color: var(--color-green);
-  padding: 30px 40px 40px 40px;
+  padding: 30px 35px 40px 35px;
   height: 160px;
   width: 27.5%;
   font-weight: 700;
@@ -239,22 +247,22 @@ h3 {
   position: absolute;
 }
 #card2 {
-  margin-left: 220px;
+  transform: translateX(200px);
 }
 #card3 {
-  margin-left: 450px;
+  transform: translateX(470px);
 }
 #card1:hover + #card2 {
-  margin-left: 400px;
+  transform: translateX(400px);
 }
 #card2:hover + #card3 {
-  transform: translate(55px);
+  transform: translate(560px);
 }
 #card2:hover {
-  margin-left: 90px;
+  transform: translateX(150px);
 }
 #card3:hover {
-  margin-left: 420px;
+  transform: translateX(540px);
 }
 #card1,
 #card2,
@@ -263,22 +271,50 @@ h3 {
 }
 #a {
   text-align: center;
-  margin-top: 260px;
   font-family: aneionkregular;
   line-height: 5px;
 }
 /* End of business*/
 /*Beginning of how eazipay work */
 #eazipaywork {
-  margin-top: 150px;
+  transform: translateY(97px);
+  height: 900px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 99%;
+}
+#yanmife {
+  width: 780px;
+  transform: translateY(-37px);
+  height: 70%;
+}
+.eazipay_header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.eaziwork_div {
+  display: flex;
+  height: 95%;
+}
+#b {
+  text-align: center;
+  font-family: aneionkregular;
+  color: var(--color-grey);
+  transform: translateY(-20px);
 }
 #eazyblock {
-  display: inline-flex;
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
 }
 #circlebar {
   margin-top: 100px;
-  display: inline-flex;
-  padding-left: 20rem;
+  display: flex;
+  position: absolute;
 }
 #circle {
 }
@@ -305,11 +341,11 @@ h3 {
   margin: 15px;
 }
 #gif {
-  width: auto;
-  height: 500px;
+  height: 520px;
   border-radius: 40.7px;
   margin-top: -40px;
-  margin-left: -333px;
+  transform: translateX(75px);
+  position: absolute;
 }
 #n1 div:nth-child(1) {
   width: 40px;
@@ -322,15 +358,17 @@ h3 {
   padding: 4px 0;
   font-family: aneionk;
 }
+#stepdiv {
+  display: flex;
+  flex-direction: column;
+}
 #steps {
-  margin-left: 11rem;
   margin-top: 100px;
   display: inline-flex;
 }
 #steps2 {
   margin-top: 10px;
   display: inline-flex;
-  margin-left: 11rem;
 }
 #n2 div:nth-child(1) {
   width: 40px;
@@ -670,7 +708,6 @@ input.required:invalid {
   margin-top: 20px;
 }
 .footer_part1 {
-
 }
 .footer_part1_div {
   font-family: aneionkregular, sans-serif;
@@ -707,8 +744,7 @@ input.required:invalid {
 }
 .footer_part2_part2,
 .footer_part2_part1,
-.footer_part2_part3
-{
+.footer_part2_part3 {
   flex: 1;
 }
 .footer_part2_div {
@@ -719,7 +755,7 @@ input.required:invalid {
   font-family: aneionkregular, sans-serif;
   font-size: 13px;
 }
-.footer_part2_div div:hover{
+.footer_part2_div div:hover {
   color: var(--color-red);
   cursor: pointer;
 }
@@ -768,4 +804,128 @@ input.required:invalid {
 }
 #arrow1:hover {
   transform: rotate(40deg);
+}
+@media only screen and (max-width: 840px) {
+  #cards {
+    display: flex;
+    flex-direction: column;
+    width: 96%;
+    height: 100%;
+  }
+  .cardp {
+    width: 96%;
+    height: 100%;
+    padding: 0 0 0 12px;
+  }
+  .card {
+    height: 130px;
+    padding: 0 0 10px 7px;
+    background-color: var(--color-white);
+    color: var(--color-black);
+    box-shadow: none;
+  }
+  h3 {
+    font-size: 15px;
+  }
+  #card1,
+  #card2,
+  #card3 {
+    position: relative;
+    width: 91%;
+  }
+  #card2,
+  #card3 {
+    transform: translatex(0);
+  }
+  #line,
+  #green {
+    height: 150%;
+  }
+  .card {
+  }
+  .businessp {
+    font-size: 11px;
+  }
+  #card2,
+  #card3 {
+    margin-top: 10px;
+  }
+  #card1:hover + #card2 {
+    transform: translateX(0);
+  }
+  #card2:hover + #card3 {
+    transform: translate(0);
+  }
+  #card2:hover {
+    transform: translateX(0);
+  }
+  #card3:hover {
+    transform: translateX(0);
+  }
+  #bro {
+    height: 50%;
+  }
+  #foreverfree{
+    height: 730px;
+  }
+  #demo_part1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #demo_part1 div {
+    display: none;
+  }
+  #demo_container2 {
+    display: flex;
+    justify-self: center;
+    height: 690px;
+  }
+  #demo_subcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+  }
+  #Exclusive_demo {
+    height: 760px;
+  }
+  #demo_part2 {
+  }
+  .footer_button {
+    display: none;
+  }
+  .footer_part2 {
+    display: flex;
+    flex-direction: column;
+  }
+  #eazipaywork {
+    display: none;
+  }
+  #Runpayroll div {
+    padding-left: 12rem;
+  }
+  .individual {
+    line-height: 64%;}
+  #a {
+    line-height: 10%;
+    font-size: 11px;
+  }
+  #container_1{
+    flex-direction: column;
+    justify-content:center ;
+    width: 400px;
+    height: 900px;
+
+  }
+  #forever h2{
+    font-size: 40px;
+  }
+  #forever{
+    
+  }
+  #container_img{
+    transform: translateY(15px);
+  }
 }
