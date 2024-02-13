@@ -805,6 +805,9 @@ input.required:invalid {
 #arrow1:hover {
   transform: rotate(40deg);
 }
+section{
+  border: 1px solid green;
+}
 @media only screen and (max-width: 840px) {
   #cards {
     display: flex;
@@ -927,5 +930,20 @@ input.required:invalid {
   }
   #container_img{
     transform: translateY(15px);
+  }
+  body{
+border: 1px solid red;
+width: 100%;
+  }
+  .footer_part2{
+    width: 200px;
+  }
+  .footer_section2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #demo_part2{
+    width: 400px;
   }
 }
