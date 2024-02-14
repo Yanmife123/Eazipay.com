@@ -687,13 +687,13 @@ label {
   transform: translatey(-30px);
 }
 .D2 #B3 {
-  width: 70px;
+  width: 7%;
   margin-left: 9px;
   padding: 2px;
   position: absolute;
 }
 #D1 .B3 {
-  width: 80px;
+  width: 7%;
   margin-left: 9px;
   padding: 2px;
   transform: translatey(-30px);
@@ -1016,7 +1016,7 @@ input.required:invalid {
   #demo_form {
     width: 78%;
   }
-  #form_nav #D{
+  #form_nav #D {
     width: 100%;
   }
 }
