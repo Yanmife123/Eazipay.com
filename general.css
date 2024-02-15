@@ -687,13 +687,13 @@ label {
   transform: translatey(-30px);
 }
 .D2 #B3 {
-  width: 7%;
+  width: 100%;
   margin-left: 9px;
   padding: 2px;
   position: absolute;
 }
 #D1 .B3 {
-  width: 7%;
+  width: 100%;
   margin-left: 9px;
   padding: 2px;
   transform: translatey(-30px);
@@ -906,6 +906,7 @@ input.required:invalid {
   #demo_container2 {
     display: flex;
     justify-self: center;
+    align-items: center;
     height: 690px;
   }
   #demo_subcontainer {
@@ -961,6 +962,11 @@ input.required:invalid {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+  }
+  .footer_section1 {
+    display: flex;
+    justify-content: center;
   }
   #demo_part2 {
     width: 400px;
@@ -981,7 +987,7 @@ input.required:invalid {
     transform: translateY(0);
   }
   #Runpayroll {
-    height: 500px;
+    height: 10%;
   }
   #runpay_header {
     width: 100%;
@@ -1014,9 +1020,28 @@ input.required:invalid {
     display: none;
   }
   #demo_form {
-    width: 78%;
+    width: 68%;
   }
   #form_nav #D {
+    width: 100%;
+  }
+  #demo_part2 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  #background {
+    height: 70%;
+  }
+  #Business {
+    margin-top: 0;
+  }
+  #green {
+    object-fit: cover;
+    object-position: center;
+  }
+  #B2,
+  #B3 {
     width: 100%;
   }
 }
