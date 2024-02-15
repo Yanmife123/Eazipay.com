@@ -681,7 +681,6 @@ label {
   background-color: #ffff;
 }
 .D2 div {
-  border: 1px solid green;
   margin-left: 9px;
   padding: 2px;
   width: 30%;
@@ -695,7 +694,6 @@ label {
   margin-left: 9px;
   padding: 2px;
   transform: translatey(-30px);
-  border: 1px solid red;
   width: 30%;
 }
 input.required:invalid {
@@ -1039,7 +1037,7 @@ input.required:invalid {
     object-fit: cover;
     object-position: center;
   }
-  .D2 #B2,
-  #D1 #B3 {
+  label{
+    font-size: 13px;
   }
 }
