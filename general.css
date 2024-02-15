@@ -681,25 +681,22 @@ label {
   background-color: #ffff;
 }
 .D2 div {
-  width: 50px;
   border: 1px solid green;
   margin-left: 9px;
   padding: 2px;
+  width: 30%;
   transform: translatey(-30px);
 }
 .D2 #B3 {
-  width: 20%;
   margin-left: 9px;
   padding: 2px;
-  position: absolute;
 }
 #D1 .B3 {
-  width: 20%;
   margin-left: 9px;
   padding: 2px;
   transform: translatey(-30px);
-  position: absolute;
-  z-index: 1;
+  border: 1px solid red;
+  width: 30%;
 }
 input.required:invalid {
   border: 2px solid red;
