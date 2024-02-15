@@ -682,22 +682,24 @@ label {
 }
 .D2 div {
   width: 50px;
+  border: 1px solid green;
   margin-left: 9px;
   padding: 2px;
   transform: translatey(-30px);
 }
 .D2 #B3 {
-  width: 100%;
+  width: 20%;
   margin-left: 9px;
   padding: 2px;
   position: absolute;
 }
 #D1 .B3 {
-  width: 100%;
+  width: 20%;
   margin-left: 9px;
   padding: 2px;
   transform: translatey(-30px);
   position: absolute;
+  z-index: 1;
 }
 input.required:invalid {
   border: 2px solid red;
@@ -1040,8 +1042,7 @@ input.required:invalid {
     object-fit: cover;
     object-position: center;
   }
-  #B2,
-  #B3 {
-    width: 100%;
+  .D2 #B2,
+  #D1 #B3 {
   }
 }
