@@ -229,7 +229,7 @@ li {
   font-size: 40px;
   text-align: center;
   color: var(--color-green);
-  line-height: 10px;
+  line-height: 10%;
 }
 .b {
   text-align: center;
@@ -299,7 +299,7 @@ h3 {
 #a {
   text-align: center;
   font-family: aneionkregular;
-  line-height: 5px;
+  line-height: 7%;
 }
 /* End of business*/
 /*Beginning of how eazipay work */
@@ -1039,5 +1039,8 @@ input.required:invalid {
   }
   label{
     font-size: 13px;
+  }
+  .individualspan{
+   line-height: 120%;
   }
 }
