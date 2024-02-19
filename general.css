@@ -903,6 +903,7 @@ input.required:invalid {
     justify-self: center;
     align-items: center;
     height: 690px;
+    width: 100%;
   }
   #demo_subcontainer {
     display: flex;
@@ -1049,5 +1050,9 @@ input.required:invalid {
     display: flex;
     align-items: center;
     flex-direction: column;
+  }
+  #container{
+    width: 100%;
+    height: 100%;
   }
 }
