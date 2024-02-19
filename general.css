@@ -452,11 +452,13 @@ h3 {
   height: 70px;
 }
 #forever h2 {
-  font-size: 49px;
+  font-size: 40px;
   /*border: 2px solid red;*/
   font-family: mellowregular, sans-serif;
   letter-spacing: 2px;
   line-height: 53px;
+  font-family: mellowregular, sans-serif;
+  color: rgb(41, 42, 41);
 }
 #container {
   display: flex;
@@ -472,11 +474,7 @@ h3 {
   margin-top: 48px;
   line-height: 1px;
 }
-#forever h2 {
-  font-family: mellowregular, sans-serif;
-  font-size: 40px;
-  color: rgb(41, 42, 41);
-}
+
 #forever_1 p {
   font-family: aneionkregular, sans-serif;
   color: var(--color-grey);
@@ -674,7 +672,7 @@ h3 {
   width: 100%;
 }
 #sub_field .D2 {
-  margin-top: 10px;
+
 }
 label {
   color: rgb(141, 142, 141);
@@ -1037,10 +1035,19 @@ input.required:invalid {
     object-fit: cover;
     object-position: center;
   }
-  label{
+  label {
     font-size: 13px;
   }
-  .individualspan{
-   line-height: 120%;
+  .individualspan {
+    line-height: 120%;
+  }
+  #forever h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+  #forever_1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
   }
 }
