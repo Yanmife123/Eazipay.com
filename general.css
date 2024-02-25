@@ -840,12 +840,13 @@ input.required:invalid {
     align-items: center;
   }
   .cardp {
-    width: 86%;
+    width: 88%;
     height: 100%;
+    border: 1px solid red;
   }
   .card {
     height: 130px;
-    padding: 0 0 10px 7px;
+    padding: 10px 0 18px 7px;
     background-color: var(--color-white);
     color: var(--color-black);
     box-shadow: none;
@@ -871,9 +872,10 @@ input.required:invalid {
   .card {
   }
   .businessp {
-    font-size: 12px;
+    font-size: 12.5px;
     text-align: center;
-    font-weight: 300;
+    font-weight: 400;
+    width: 96%;
   }
   #card2,
   #card3 {
