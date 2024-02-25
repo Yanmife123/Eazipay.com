@@ -299,7 +299,7 @@ h3 {
 #a {
   text-align: center;
   font-family: aneionkregular;
-  line-height: 7%;
+  line-height: 10%;
 }
 /* End of business*/
 /*Beginning of how eazipay work */
@@ -842,7 +842,6 @@ input.required:invalid {
   .cardp {
     width: 86%;
     height: 100%;
-    border: 1px solid red;
   }
   .card {
     height: 130px;
@@ -939,7 +938,7 @@ input.required:invalid {
     line-height: 64%;
   }
   #a {
-    line-height: 10%;
+    line-height: 12%;
     font-size: 11px;
   }
   #container_1 {
