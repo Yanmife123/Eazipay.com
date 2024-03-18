@@ -1041,7 +1041,7 @@ input.required:invalid {
   #green {
     object-fit: cover;
     object-position: right;
-    height: 107%;
+    height: 920px;
   }
   label {
     font-size: 13px;
@@ -1063,8 +1063,9 @@ input.required:invalid {
     height: 100%;
   }
   #eazyblock {
-    flex-direction: column;
     height: 100%;
+    justify-content: center;
+    padding: 10px;
   }
   #yanmife {
     transform: translateY(0);
@@ -1074,31 +1075,39 @@ input.required:invalid {
     display: none;
   }
   #gif {
-    height: 90%;
-
+    height: 70%;
     align-items: center;
+    transform: translateX(3px);
+    
   }
   #circlebar {
-    height: 60%;
-    width: 396px;
+    height: 70%;
+    width: 87%;
+    border: 1px solid red;
+    align-items: center;
+    justify-content: center;
   }
   .circle_1 {
     height: 100%;
     display: flex;
     justify-content: center;
-  }
-  #circle1,
-  #circle2,
-  #circle3 {
     width: 100%;
+    align-items: center;
+    border: 1px solid navy ;
+  }
+  #circle1 {
+    width: 100%;
+    height: 100%;
   }
   #circle2 {
-    width: 85%;
+    width: 90%;
+    margin: 20px 14px;
   }
   #circle3 {
-    width: 91%;
+    width: 89%;
+    margin: 10;
   }
   #circle {
-    width: 100%;
+    width: 300px;
   }
 }
