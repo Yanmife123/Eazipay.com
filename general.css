@@ -946,7 +946,8 @@ input.required:invalid {
     height: 900px;
   }
   #forever h2 {
-    font-size: 40px;
+    font-size: 7vw;
+    text-align: center;
   }
   #forever {
   }
@@ -1049,10 +1050,6 @@ input.required:invalid {
   .individualspan {
     line-height: 120%;
   }
-  #forever h2 {
-    font-size: 30px;
-    text-align: center;
-  }
   #forever_1 {
     display: flex;
     align-items: center;
@@ -1075,7 +1072,7 @@ input.required:invalid {
     display: none;
   }
   #gif {
-    height: 70%;
+    height: 80%;
     align-items: center;
     transform: translateX(3px);
     
@@ -1083,7 +1080,6 @@ input.required:invalid {
   #circlebar {
     height: 70%;
     width: 87%;
-    border: 1px solid red;
     align-items: center;
     justify-content: center;
   }
@@ -1093,7 +1089,6 @@ input.required:invalid {
     justify-content: center;
     width: 100%;
     align-items: center;
-    border: 1px solid navy ;
   }
   #circle1 {
     width: 100%;
